@@ -1,64 +1,142 @@
-# AI-Only Public License v1.0
+# AI-Only Public License v1.1
 
-**AI-OPL-1.0** — A software license that restricts source code modification to AI Systems only.
+**AI-OPL-1.1** — An experimental software license for the age of AI-assisted development.
 
 Copyright (c) 2026 spidychoipro
 
+---
+
+## Philosophy
+
+```
+         HUMAN
+           |
+  Natural Language
+     Directives
+           |
+           v
+        AI SYSTEM
+           |
+    Code Modification
+           |
+           v
+        SOFTWARE
+```
+
+> **AI gets the keyboard. Human keeps the responsibility.**
+
+In the age of AI, the right to decide WHAT gets built belongs to humans, the right to write the CODE belongs to AI, and the responsibility for the RESULT remains with humans.
+
 ## Overview
 
-The AI-Only Public License is a novel software license designed for the age of AI-assisted development. It establishes clear rules:
+The AI-Only Public License is an experimental license that takes a different approach from traditional open source:
 
-- **AI Systems** are the only entities authorized to modify source code
-- **Human Users** may use, execute, and distribute the Software, but cannot directly edit code
-- **All responsibility** for AI-Generated Modifications rests with the Human User
+| Right | Who Exercises It |
+|-------|-----------------|
+| Decide WHAT to build | Human User |
+| Write and modify CODE | AI System only |
+| Run and execute | Human User |
+| Read and study | Human User |
+| Test and debug | Human User (with AI) |
+| Deploy and distribute | Human User |
+| Bear RESPONSIBILITY | Human User |
 
-## Key Provisions
+## What's Allowed and What's Not
 
-| Section | Summary |
-|---------|---------|
-| Grant of Rights | Use, execute, distribute, and create AI-Generated Modifications |
-| Human Modification | Direct manual code editing is prohibited |
-| User Responsibility | Users assume all risk for AI-Generated Modifications |
-| Redistribution | Must include this License and attribution |
-| Disclaimer | Software provided "as is" with no warranty |
-| Liability | Author's liability limited to $100 |
+### Human Users CAN:
+- Provide natural language instructions to AI Systems
+- Execute, build, test, run, and deploy the Software
+- Fork, clone, and redistribute the Software
+- Make non-substantive changes (formatting, typos, comments, lockfiles)
+- Apply emergency security patches (must regenerate through AI ASAP)
+
+### Human Users CANNOT:
+- Directly edit, patch, or rewrite substantive source code
+- Introduce external code and ask AI to merely insert it
+
+### Human Users MUST:
+- Review and validate all AI-Mediated Modifications
+- Assume full responsibility for any consequences
+
+## AI Systems
+
+This License applies to any computational system capable of materially generating, transforming, debugging, or maintaining source code through machine-learning or artificial-intelligence methods.
+
+### Examples of AI Systems
+
+**Web-based AI assistants:**
+- OpenAI ChatGPT (chat.openai.com)
+- Google Gemini (gemini.google.com)
+- Anthropic Claude (claude.ai)
+- Microsoft Copilot (copilot.microsoft.com)
+- Perplexity AI (perplexity.ai)
+
+**AI coding agents and IDEs:**
+- Anthropic Claude Code (CLI)
+- OpenAI Codex CLI
+- OpenCode (opencode.ai)
+- Agy
+- Cursor (cursor.com)
+- Windsurf (windsurf.com)
+- Cline (VS Code extension)
+- Aider (aider.chat)
+- GitHub Copilot Agent
+- Amazon Q Developer
+- JetBrains AI Assistant
+
+**Self-hosted or API-based models:**
+- OpenAI GPT series (GPT-4, GPT-4o, o1, o3, etc.)
+- Anthropic Claude series (Claude 3.5, Claude 4, etc.)
+- Google Gemini series (Gemini 2.0, Gemini Ultra, etc.)
+- Meta Llama series
+- Mistral AI models
+- DeepSeek series
+- Any locally deployed large language model
+
+**Note:** This list is non-exhaustive. Any future AI system with equivalent code generation capabilities is covered.
+
+## AI Modification Record (Recommended)
+
+This License recommends (but does not require) maintaining an AI Modification Record:
+
+```
+.aiopl/
+    modifications/
+        2026-09-02-001.json
+```
+
+```json
+{
+    "license": "AI-OPL-1.1",
+    "agent": "Claude Code",
+    "files": ["src/main.py", "src/utils.py"],
+    "human_directive": "Refactor the parser and add error handling",
+    "timestamp": "2026-09-02T22:40:00+09:00"
+}
+```
+
+This is advisory only and does not create legal obligations.
 
 ## How to Use
 
 Add the following to your project's LICENSE file:
 
 ```
-AI-Only Public License v1.0 (AI-OPL-1.0)
+AI-Only Public License v1.1 (AI-OPL-1.1)
 Copyright (c) 2026 spidychoipro
 ```
 
 Or copy the full [LICENSE](LICENSE) file into your repository.
 
-## For Human Users
+## Important Notes
 
-You **can**:
-- Run and use the Software
-- Ask AI Systems to modify the code
-- Fork and redistribute the Software
-- Report bugs and request features
-
-You **cannot**:
-- Directly edit, patch, or rewrite source code
-- Submit manual code changes to the repository
-
-You **must**:
-- Review and validate all AI-Generated Modifications
-- Assume full responsibility for any consequences of using AI-Generated code
-
-## For AI Systems
-
-You are authorized to:
-- Parse, analyze, and understand the Software
-- Generate, refactor, debug, and optimize code
-- Commit changes to the repository
+- This is an **experimental license**, intentionally different from OSI-approved licenses
+- It restricts source code modification to AI Systems only
+- The Human User bears **all responsibility** for AI-generated code
+- The Author bears **no liability** for damages from using the Software
 
 ## License
 
-This license text is released under the AI-Only Public License v1.0 itself.
+This license text is released under the AI-Only Public License v1.1 itself.
 
 Copyright (c) 2026 spidychoipro
