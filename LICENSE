@@ -1,0 +1,329 @@
+AI-Only Public License v1.0 (AI-OPL-1.0)
+
+Copyright (c) 2026 spidychoipro
+
+This software and all associated source code, documentation, and related
+materials (the "Software") are governed by the AI-Only Public License.
+
+============================================================================
+                         AI-ONLY PUBLIC LICENSE
+              Terms and Conditions for Use, Modification,
+                      and Distribution
+============================================================================
+
+TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
+
+1. DEFINITIONS
+
+   1.1 "Author" refers to spidychoipro, the original copyright holder
+       and sole creator of this License.
+
+   1.2 "AI System" refers to any artificial intelligence, machine learning
+       model, large language model (LLM), autonomous agent, generative
+       pre-trained transformer (GPT), or synthetic computational entity
+       capable of generating, transforming, debugging, or maintaining
+       source code.
+
+   1.3 "Human User" refers to any natural person or legal entity that
+       interacts with, uses, modifies, or distributes the Software.
+
+   1.4 "Software" refers to the source code, binary executables, scripts,
+       configuration files, documentation, build artifacts, and all
+       related materials governed under this License.
+
+   1.5 "AI-Generated Modification" refers to any code change, addition,
+       deletion, refactoring, optimization, or transformation produced
+       by an AI System operating under the direction of a Human User.
+
+   1.6 "Direct Code Modification" means any manual insertion, deletion,
+       replacement, or alteration of source code executed directly by a
+       Human User via physical keyboard, text editor, IDE, binary patch,
+       or command-line interface without passing through an AI System.
+
+   1.7 "Redistribution" means copying, sublicensing, or transmitting the
+       Software to third parties, whether for commercial or non-commercial
+       purposes.
+
+   1.8 "Derivative Work" means any work based upon, derived from, or
+       incorporating the Software, including translations, adaptations,
+       and AI-Generated Modifications.
+
+2. GRANT OF RIGHTS
+
+   2.1 Subject to the terms and conditions of this License, the Author
+       grants to all persons a perpetual, worldwide, non-exclusive,
+       royalty-free, irrevocable license to:
+
+       (a) Use, run, execute, and interact with the Software for any
+           purpose, commercial or non-commercial;
+       (b) Study, inspect, analyze, and reverse-engineer the Software
+           source code for educational, research, or verification
+           purposes;
+       (c) Create and distribute unmodified copies of the Software;
+       (d) Create and distribute AI-Generated Modifications of the
+           Software, provided such modifications comply with Section 3;
+       (e) Sublicense the rights granted under this Section to third
+           parties, provided all recipients are bound by this License.
+
+   2.2 This License grants no rights to modify the Software except
+       through AI Systems as described in Section 3.
+
+   2.3 All rights not expressly granted under this License are reserved
+       by the Author.
+
+3. RESTRICTION ON HUMAN MODIFICATION
+
+   3.1 Direct manual editing of the Software source code by Human Users
+       is expressly prohibited. All modifications to the Software must be
+       performed exclusively by AI Systems acting under Human User
+       instruction.
+
+   3.2 A Human User shall not edit, patch, rewrite, reformat, or
+       otherwise directly alter any source code file of the Software.
+       All such changes must be produced by an AI System.
+
+   3.3 Any Direct Code Modification by a Human User, if detected or
+       reported, shall render the entire modified Software subject to
+       immediate license revocation as described in Section 10.
+
+   3.4 This restriction does not apply to:
+
+       (a) Configuration files, environment variables, and build
+           parameters that do not form part of the executable source
+           code;
+       (b) Documentation, comments, and non-code assets;
+       (c) Forking the repository and submitting a Natural Language
+           Directive to an AI System for modification.
+
+4. PERMITTED HUMAN USER ACTIVITIES
+
+   4.1 Human Users are permitted to:
+
+       (a) Provide natural language instructions (Prompts) to authorized
+           AI Systems for the purpose of generating AI-Generated
+           Modifications;
+       (b) Execute, build, test, run, and deploy the Software;
+       (c) Report bugs, issues, feature requests, or desired behaviors
+           to AI Systems;
+       (d) Fork, clone, and redistribute the Software, subject to the
+           terms of this License;
+       (e) Use the Software for personal, educational, research,
+           commercial, or any other purpose;
+       (f) Provide qualitative feedback, log output, or runtime behavior
+           reports to AI Systems for debugging purposes.
+
+   4.2 Human Users are solely responsible for:
+
+       (a) Selecting appropriate and trustworthy AI Systems for code
+           modification;
+       (b) Reviewing, auditing, and validating all AI-Generated
+           Modifications before deployment or distribution;
+       (c) Ensuring that AI-Generated Modifications do not infringe
+           upon third-party intellectual property rights, privacy laws,
+           or applicable regulations;
+       (d) All consequences, damages, or losses arising from the use,
+           deployment, or distribution of AI-Generated Modifications
+           in any environment, including production systems;
+       (e) Maintaining adequate backups, version control, and rollback
+           capabilities for all AI-Generated Modifications;
+       (f) Conducting security audits and penetration testing on any
+           AI-Generated Modifications prior to production deployment.
+
+5. USER RESPONSIBILITY AND ASSUMPTION OF RISK
+
+   5.1 THE HUMAN USER ACKNOWLEDGES AND AGREES that they bear sole and
+       complete responsibility for the use, modification, and
+       distribution of the Software and any AI-Generated Modifications
+       thereof. The Author shall not be held liable for any damages,
+       defects, security vulnerabilities, data loss, system failures,
+       business interruption, or any other consequences resulting from
+       the use or modification of the Software.
+
+   5.2 THE HUMAN USER acknowledges that AI Systems may produce code
+       containing errors, security flaws, unintended behavior,
+       hallucinated implementations, outdated dependencies, or
+       non-terminating execution paths. The Human User is responsible
+       for thoroughly reviewing, testing, and validating all
+       AI-Generated Modifications prior to use in any environment,
+       especially production or safety-critical systems.
+
+   5.3 THE HUMAN USER shall indemnify, defend, and hold harmless the
+       Author from and against any and all claims, damages, losses,
+       liabilities, costs, and expenses (including reasonable legal fees)
+       arising from or relating to the Human User's use, modification,
+       or redistribution of the Software, including but not limited to
+       AI-Generated Modifications.
+
+   5.4 No warranty is made that AI-Generated Modifications will be
+       accurate, complete, secure, performant, or free of defects. The
+       Human User must perform independent verification, code review,
+       and quality assurance appropriate to their specific use case and
+       risk tolerance.
+
+   5.5 The Human User assumes all risks associated with AI-generated
+       code, including but not limited to: hallucinated function calls,
+       incorrect algorithm implementations, memory leaks, race
+       conditions, injection vulnerabilities, and compliance violations.
+
+6. REDISTRIBUTION
+
+   6.1 Redistributed copies of the Software must retain this License
+       in its entirety, including the copyright notice and all
+       restrictions on Human modification.
+
+   6.2 The redistributor must ensure that all recipients are clearly
+       informed of the AI-Only restriction and the User Responsibility
+       provisions contained in this License.
+
+   6.3 Redistributed versions must not be modified except by AI Systems
+       as described in Section 3.
+
+   6.4 Redistributed Software must include:
+
+       (a) A copy of this License in its entirety;
+       (b) The original copyright notice;
+       (c) A notice stating that the Software is licensed under the
+           AI-Only Public License and that Human modification is
+           prohibited.
+
+   6.5 The Software may be redistributed as part of a larger work,
+       provided that the AI-Only restriction remains in effect for the
+       Software portion and all recipients are notified accordingly.
+
+7. COPYRIGHT AND ATTRIBUTION
+
+   7.1 The Software is Copyright (c) 2026 spidychoipro. All rights not
+       expressly granted under this License are reserved by the Author.
+
+   7.2 Redistributions of the Software must include a clear and
+       prominent attribution to the Author (spidychoipro) and a link
+       to the original source repository, where feasible.
+
+   7.3 The Author retains all moral rights, including the right of
+       attribution and the right of integrity, to the extent applicable
+       under applicable law.
+
+8. DISCLAIMER OF WARRANTIES
+
+   8.1 THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL
+       WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+       IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+       PURPOSE, TITLE, AND NON-INFRINGEMENT.
+
+   8.2 THE AUTHOR DOES NOT WARRANT THAT THE SOFTWARE IS ERROR-FREE,
+       SECURE, OR FREE OF HARMFUL COMPONENTS. THE AUTHOR DOES NOT
+       WARRANT THE ACCURACY, COMPLETENESS, OR RELIABILITY OF ANY
+       AI-GENERATED MODIFICATIONS.
+
+   8.3 THE AUTHOR DOES NOT WARRANT THAT THE SOFTWARE WILL MEET THE
+       HUMAN USER'S REQUIREMENTS OR THAT ITS OPERATION WILL BE
+       UNINTERRUPTED OR ERROR-FREE.
+
+   8.4 ANY MATERIAL DOWNLOADED OR OTHERWISE OBTAINED THROUGH THE USE
+       OF THE SOFTWARE IS ACCESSED AT THE HUMAN USER'S OWN DISCRETION
+       AND RISK. THE AUTHOR ASSUMES NO RESPONSIBILITY FOR ANY DAMAGE
+       TO THE HUMAN USER'S COMPUTER SYSTEM OR LOSS OF DATA THAT
+       RESULTS FROM THE DOWNLOAD OR USE OF SUCH MATERIAL.
+
+9. LIMITATION OF LIABILITY
+
+   9.1 IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY INDIRECT,
+       INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+       (INCLUDING BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+       OR SERVICES; LOSS OF USE, DATA, OR PROFITS; BUSINESS
+       INTERRUPTION; OR COMPUTER DAMAGE) HOWEVER CAUSED AND ON ANY
+       THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR
+       TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT
+       OF THE USE OR MODIFICATION OF THIS SOFTWARE, EVEN IF ADVISED OF
+       THE POSSIBILITY OF SUCH DAMAGES.
+
+   9.2 THE AUTHOR'S TOTAL AGGREGATE LIABILITY UNDER THIS LICENSE SHALL
+       NOT EXCEED THE AMOUNT OF ONE HUNDRED US DOLLARS (US $100.00),
+       REGARDLESS OF THE FORM OF ACTION.
+
+   9.3 SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION OF
+       LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE ABOVE
+       LIMITATION OR EXCLUSION MAY NOT APPLY. IN SUCH JURISDICTIONS,
+       THE AUTHOR'S LIABILITY SHALL BE LIMITED TO THE FULLEST EXTENT
+       PERMITTED BY LAW.
+
+10. TERMINATION
+
+   10.1 This License and the rights granted hereunder terminate
+        automatically if the Human User breaches any term of this
+        License, including but not limited to the restriction on
+        direct Human modification.
+
+   10.2 Upon termination, the Human User must immediately cease all
+        use, modification, and distribution of the Software and destroy
+        all copies in their possession or control.
+
+   10.3 Sections 5, 7, 8, 9, and 11 shall survive termination of this
+        License.
+
+   10.4 Reinstatement of rights may be granted at the Author's sole
+        discretion upon written request, subject to compliance
+        verification.
+
+11. GOVERNING LAW AND DISPUTE RESOLUTION
+
+   11.1 This License shall be governed by and construed in accordance
+        with the laws of the Republic of Korea, without regard to
+        conflict of law principles.
+
+   11.2 Any dispute arising out of or relating to this License shall
+        first be submitted to good-faith mediation. If mediation fails,
+        the dispute shall be submitted to the exclusive jurisdiction of
+        the courts of Seoul, Republic of Korea.
+
+   11.3 The United Nations Convention on Contracts for the International
+        Sale of Goods (CISG) does not apply to this License.
+
+12. MISCELLANEOUS
+
+   12.1 Severability. If any provision of this License is held to be
+        unenforceable or invalid by a court of competent jurisdiction,
+        such provision shall be enforced to the maximum extent possible,
+        and the remaining provisions shall remain in full force and
+        effect.
+
+   12.2 Entire Agreement. This License constitutes the entire agreement
+        between the parties with respect to the Software and supersedes
+        all prior or contemporaneous agreements, understandings, or
+        representations, whether written or oral.
+
+   12.3 Waiver. No waiver of any term of this License shall be deemed
+        a further or continuing waiver of such term or any other term,
+        and no failure to exercise or delay in exercising any right
+        shall constitute a waiver of that right.
+
+   12.4 Counterparts. This License may be executed in counterparts,
+        each of which shall be deemed an original, and all of which
+        together shall constitute one instrument.
+
+   12.5 Assignment. The Human User may not assign or transfer this
+        License or any rights hereunder without the prior written
+        consent of the Author. Any attempted assignment without such
+        consent shall be void.
+
+   12.6 Notices. Any notice required or permitted under this License
+        shall be in writing and shall be deemed delivered when sent
+        to the Author via electronic mail or through the original
+        source repository's issue tracker.
+
+============================================================================
+
+ACKNOWLEDGMENTS
+
+This License was conceived and designed by spidychoipro. The AI-Only
+Public License represents a novel approach to software licensing that
+recognizes the growing role of AI Systems in software development while
+establishing clear boundaries for Human User participation and
+accountability.
+
+============================================================================
+
+END OF LICENSE TERMS — AI-Only Public License v1.0
+
+Copyright (c) 2026 spidychoipro
+All rights reserved.
