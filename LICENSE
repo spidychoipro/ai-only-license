@@ -1,10 +1,10 @@
-AI-Only Public License v1.1 (AI-OPL-1.1)
+AI-Only Public License v1.2 (AI-OPL-1.2)
 
 Copyright (c) 2026 spidychoipro
 
 ============================================================================
                          AI-ONLY PUBLIC LICENSE
-                  Experimental Software License
+                   Experimental Software License
               Terms and Conditions for Use, Modification,
                       and Distribution
 ============================================================================
@@ -70,11 +70,11 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
        include Non-Substantive Changes as defined in Section 1.7.
 
    1.6 "AI-Mediated Modification" means a Substantive Code Modification
-       in which the code change is generated, transformed, or materially
-       reviewed and altered by an AI System in response to a Human
-       User's Natural Language Directive. The Human User's act of
-       formulating instructions, specifications, constraints, or tests
-       does not, by itself, constitute Direct Code Modification.
+       in which an AI System materially generates or transforms the
+       code change itself in response to a Human User's Natural Language
+       Directive. AI review, recommendation, explanation, testing, or
+       analysis, without generation or transformation of the resulting
+       code, does not by itself constitute an AI-Mediated Modification.
 
    1.7 "Non-Substantive Change" means any of the following that does
        not alter the logic, behavior, or functionality of the Software:
@@ -91,8 +91,8 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
 
    1.8 "Direct Code Modification" means any Substantive Code Modification
        executed directly by a Human User without the material involvement
-       of an AI System in generating, transforming, or reviewing the
-       specific code change.
+       of an AI System in generating or transforming the specific code
+       change.
 
    1.9 "Natural Language Directive" means any non-code, natural language
        instruction, request, context specification, requirement document,
@@ -155,17 +155,27 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
        Software. All Substantive Code Modifications must be AI-Mediated
        Modifications as defined in Section 1.6.
 
-   3.3 Anti-Circumvention. A Human User shall not circumvent this
-       License by manually introducing externally authored source code
-       and merely requesting an AI System to insert, reproduce, or
-       reformat that code. The AI System must materially generate or
-       transform the code, not merely relay it.
+   3.3 Anti-Circumvention (Source Code). A Human User shall not
+       circumvent this License by manually introducing externally
+       authored source code and merely requesting an AI System to
+       insert, reproduce, or reformat that code. The AI System must
+       materially generate or transform the code, not merely relay it.
 
-   3.4 Human authorship of a Natural Language Directive, specification,
+   3.4 Anti-Circumvention (Compiled Artifacts). A Human User shall not
+       circumvent the AI-Mediated Modification requirement by directly
+       modifying compiled binaries, generated artifacts, bytecode, or
+       other executable representations where such modification is
+       functionally equivalent to a Substantive Code Modification.
+
+       This restriction does not prohibit ordinary compilation, linking,
+       packaging, optimization, or other automated build processes
+       performed from compliant source code.
+
+   3.5 Human authorship of a Natural Language Directive, specification,
        requirement, or design document does not, by itself, constitute
        Direct Code Modification.
 
-   3.5 This workflow requirement does not apply to Non-Substantive
+   3.6 This workflow requirement does not apply to Non-Substantive
        Changes as defined in Section 1.7.
 
 4. PERMITTED HUMAN USER ACTIVITIES
@@ -185,8 +195,9 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
        (g) Make Non-Substantive Changes as defined in Section 1.7;
        (h) Apply emergency patches for critical security vulnerabilities
            when an AI System is not immediately available, provided that
-           the patch is regenerated through an AI System as soon as
-           reasonably practicable (see Section 5.6).
+           the patch is regenerated through an AI System within a
+           reasonable period after an AI System becomes available (see
+           Section 5.6).
 
    4.2 Human Users are solely responsible for:
 
@@ -227,12 +238,11 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
        AI-Mediated Modifications prior to use in any environment,
        especially production or safety-critical systems.
 
-   5.4 THE HUMAN USER shall indemnify, defend, and hold harmless the
-       Author from and against any and all claims, damages, losses,
-       liabilities, costs, and expenses (including reasonable legal fees)
-       arising from or relating to the Human User's use, modification,
-       or redistribution of the Software, including but not limited to
-       AI-Mediated Modifications.
+   5.4 THE HUMAN USER shall be responsible for, and shall not hold the
+       Author liable for, any claims, damages, losses, liabilities,
+       costs, and expenses arising from or relating to the Human User's
+       use, modification, or redistribution of the Software, including
+       but not limited to AI-Mediated Modifications.
 
    5.5 No warranty is made that AI-Mediated Modifications will be
        accurate, complete, secure, performant, or free of defects. The
@@ -244,9 +254,10 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
        vulnerability or catastrophic bug where an AI System is not
        immediately available, a Human User may apply a temporary direct
        patch. However, the Human User must regenerate the patch through
-       an AI System as soon as reasonably practicable and document the
-       emergency modification. Failure to do so within a reasonable
-       time may be considered a license violation.
+       an AI System within a reasonable period after an AI System
+       becomes available for use, and must document the emergency
+       modification. Failure to do so may be considered a license
+       violation.
 
 6. AI MODIFICATION RECORD (Recommended)
 
@@ -263,12 +274,15 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
                2026-09-02-001.json
 
        {
-           "license": "AI-OPL-1.1",
+           "license": "AI-OPL-1.2",
            "agent": "Claude Code",
            "files": ["src/main.py", "src/utils.py"],
            "human_directive": "Refactor the parser and add error handling",
            "timestamp": "2026-09-02T22:40:00+09:00"
        }
+
+       The record MAY omit or redact confidential, personal,
+       security-sensitive, or proprietary information.
 
    6.3 The Author further recommends that commits containing AI-Mediated
        Modifications include a trailer such as:
@@ -300,9 +314,13 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
            is restricted to AI Systems.
 
    7.4 The Software may be redistributed as part of a larger work,
-       provided that the AI-Mediated Modification restriction remains
-       in effect for the Software portion and all recipients are
-       notified accordingly.
+       provided that the AI-Mediated Modification restriction applies
+       only to the portion of the larger work that constitutes,
+       incorporates, or is a Derivative Work of the Software.
+       Independently created portions of the larger work are not subject
+       to this License unless otherwise agreed by their copyright
+       holders. All recipients must be notified of the AI-OPL terms
+       applicable to the Software portion.
 
 8. COPYRIGHT AND ATTRIBUTION
 
@@ -373,10 +391,15 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
         modification, and distribution of the Software and destroy
         all copies in their possession or control.
 
-   11.4 Sections 5, 8, 9, 10, and 12 shall survive termination of
+   11.4 Downstream Protection. Termination of a recipient's rights
+        under this License shall not automatically terminate the rights
+        of other recipients who received the Software in compliance
+        with this License and who are not themselves in breach.
+
+   11.5 Sections 5, 8, 9, 10, and 12 shall survive termination of
         this License.
 
-   11.5 Reinstatement of rights may be granted at the Author's sole
+   11.6 Reinstatement of rights may be granted at the Author's sole
         discretion upon written request, subject to compliance
         verification.
 
@@ -426,8 +449,8 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
         to the Author via electronic mail or through the original
         source repository's issue tracker.
 
-   13.7 Versioning. This License is identified as version 1.1
-        (AI-OPL-1.1). Future versions may introduce changes. The
+   13.7 Versioning. This License is identified as version 1.2
+        (AI-OPL-1.2). Future versions may introduce changes. The
         Author will publish new versions through the original source
         repository. Use of a specific version is governed by the
         terms of that version.
@@ -447,7 +470,7 @@ and the responsibility for the RESULT remains with humans.
 
 ============================================================================
 
-END OF LICENSE TERMS — AI-Only Public License v1.1
+END OF LICENSE TERMS — AI-Only Public License v1.2
 
 Copyright (c) 2026 spidychoipro
 All rights reserved.
