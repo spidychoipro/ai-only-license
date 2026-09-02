@@ -136,18 +136,19 @@ TERMS AND CONDITIONS FOR USE, MODIFICATION, AND DISTRIBUTION
 
 3. WORKFLOW: AI-MEDIATED MODIFICATION
 
-   3.1 The intended workflow for modifying the Software is:
+   3.1 The intended workflow for modifying the Software is as follows:
 
-         HUMAN                  AI SYSTEM              SOFTWARE
-           |                        |                      |
-           |-- Natural Language ---->|                      |
-           |    Directive           |                      |
-           |                        |-- Code Change ------>|
-           |<---- AI-Mediated -----|                      |
-           |     Modification      |                      |
+       Step 1: The Human User formulates a Natural Language Directive
+       describing what change is needed and why.
 
-       The Human User decides what to change and why.
-       The AI System determines how to change the code.
+       Step 2: The AI System receives the directive and generates or
+       transforms the source code accordingly.
+
+       Step 3: The Human User reviews the AI-Mediated Modification,
+       validates the result, and accepts or requests further changes.
+
+       In summary: the Human User decides WHAT to change and WHY.
+       The AI System determines HOW to change the code.
        The Human User reviews and accepts the result.
 
    3.2 A Human User shall not perform Direct Code Modification of the
